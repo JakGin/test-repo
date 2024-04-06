@@ -1,4 +1,7 @@
-from simple import add, subtract, multiply, divide
+import sys
+sys.path.append('../')
+
+from src.simple import add, subtract, multiply, divide
 
 
 def test_add():
